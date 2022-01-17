@@ -21,6 +21,7 @@
         <br/>
 
         Nuevo valor de la base : <%= baseValor%>
+        <br/>
         Nuevo valor de la altura: <%= alturaValor%>
         <br/>
         <a href="index.jsp">Inicio</a>
