@@ -18,8 +18,8 @@
         <br/>
         <br/>
         <a href="index.jsp">Inicio</a>
-         
-         
-         <br/>
+
+
+        <br/>
     </body>
 </html>

@@ -8,7 +8,6 @@ public class Rectangulo implements Serializable {
     private int altura;
 
     //Constructor
-
     public Rectangulo(int base, int altura) {
         this.base = base;
         this.altura = altura;
@@ -16,8 +15,6 @@ public class Rectangulo implements Serializable {
 
     public Rectangulo() {
     }
-    
-    
 
     //Getter and Setter
     public int getBase() {
@@ -35,12 +32,10 @@ public class Rectangulo implements Serializable {
     public void setAltura(int altura) {
         this.altura = altura;
     }
-    
+
     //Metodos
-    
-    public int getArea(){
+    public int getArea() {
         return this.base * this.altura;
     }
-    
 
 }

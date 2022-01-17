@@ -13,18 +13,18 @@
         <%
             int baseValor = 5;
             int alturaValor = 10;
-            
-         %>
-        
-         <jsp:setProperty name="rectangulo" property="base" value="<%= baseValor %>"/> <!-- === rectangulo.setBase-->
-         <jsp:setProperty name="rectangulo" property="altura" value="<%= alturaValor %>"/>
-         <br/>
-         
-         Nuevo valor de la base : <%= baseValor %>
-         Nuevo valor de la altura: <%= alturaValor %>
-         <br/>
-         <a href="index.jsp">Inicio</a>
-         
-         
+
+        %>
+
+        <jsp:setProperty name="rectangulo" property="base" value="<%= baseValor%>"/> <!-- === rectangulo.setBase-->
+        <jsp:setProperty name="rectangulo" property="altura" value="<%= alturaValor%>"/>
+        <br/>
+
+        Nuevo valor de la base : <%= baseValor%>
+        Nuevo valor de la altura: <%= alturaValor%>
+        <br/>
+        <a href="index.jsp">Inicio</a>
+
+
     </body>
 </html>
