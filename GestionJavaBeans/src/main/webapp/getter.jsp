@@ -10,9 +10,9 @@
         <br/>
         <jsp:useBean id="rectangulo" class="beans.Rectangulo" scope="session"/>
         <br/>
-        Valor base: <jsp:setProperty name="rectangulo" property="base"/><!-- === rectangulo.getBase-->
+        Valor base: <jsp:getProperty name="rectangulo" property="base"/><!-- === rectangulo.getBase-->
         <br/>
-        Valor altura: <jsp:setProperty name="rectangulo" property="altura"/><!-- === rectangulo.getAltura-->
+        Valor altura: <jsp:getProperty name="rectangulo" property="altura"/><!-- === rectangulo.getAltura-->
         <br/>
         Valor area: <jsp:getProperty name="rectangulo" property="area"/>
         <br/>
