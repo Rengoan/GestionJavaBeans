@@ -1,18 +1,20 @@
 package beans;
 
-public class Beans {
+import java.io.Serializable;
+
+public class Rectangulo implements Serializable {
 
     private int base;
     private int altura;
 
     //Constructor
 
-    public Beans(int base, int altura) {
+    public Rectangulo(int base, int altura) {
         this.base = base;
         this.altura = altura;
     }
 
-    public Beans() {
+    public Rectangulo() {
     }
     
     
@@ -36,7 +38,7 @@ public class Beans {
     
     //Metodos
     
-    public int getArea(int base, int altura){
+    public int getArea(){
         return this.base * this.altura;
     }
     
